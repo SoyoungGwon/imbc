@@ -1,0 +1,483 @@
+@import url(common.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+	background-color: #efefef;
+}
+
+#wrap {
+	width:980px;
+	height: 1200px;
+	margin: 0 auto;
+}
+
+#header{
+	position: relative;
+	margin-bottom: 24px;
+}
+
+#header .logo a{
+	display: block;
+	width:200px;
+	height:200px;
+	background: url(../img/logo.jpg) no-repeat;
+	float: left;
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+#header .nav .nav1 {
+	float: left;
+	padding:30px 10px 0 30px;
+	box-sizing: border-box;
+	text-align: left;
+}
+
+#header .nav .nav1 .nav-tle{
+	font: bold 15px 'Nanum Gothic', sans-serif;
+	color: #202020;
+	margin-bottom: 10px;
+}
+
+#header .nav-close{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 79px;
+	height: 31px;
+	background: url(../img/nav-close.jpg) no-repeat;
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+#header .nav .nav1-1 {width:168px;	margin-left: 46px;}
+#header .nav .nav1-2 {width:168px;}
+#header .nav .nav1-3 {width:207px;}
+#header .nav .nav1-4 {width:190px;}
+
+#header .nav .nav1 ul li a{
+	font: 13px 'Nanum Gothic', sans-serif;
+	color:#202020;
+	line-height: 1.7em;
+}
+
+#content{
+	width: 980px;
+	height: 350px;
+}
+
+#slider{
+	position: relative;
+	width: 730px;
+	height: 340px;
+	box-sizing: border-box;
+	float:left;
+}
+
+#slider .bx-wrapper{
+	padding-left: 5px;
+	width: 100%;
+	height: 340px;
+	margin: 0 auto;
+}
+
+#slider .bx-wrapper .bx-viewport{
+	box-shadow: none;
+	border: none;
+	position: relative;
+}
+
+#slider .bx-pager.bx-default-pager{
+	position: absolute;
+	right: 44px;
+	bottom: 29px;
+	width: auto;
+}
+
+#slider .bx-wrapper .bx-pager-link.active{
+	background: url(../img/sIcon1.jpg) no-repeat;
+	width:19px;
+	height: 10px;
+	vertical-align: middle;
+}
+
+#slider .bx-prev{
+	position: absolute;
+	left: 0;
+	top:50%;
+	margin-top: -34px;
+	width: 68px;
+	height: 68px;
+	background: url(../img/prev.png) no-repeat;
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+#slider .bx-next{
+	position: absolute;
+	right: 0;
+	top:50%;
+	margin-top: -34px;
+	width: 68px;
+	height: 68px;
+	background: url(../img/next.png) no-repeat;
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+#menu {
+	background: url(../img/menu.jpg) no-repeat;
+	float: right;
+	width: 250px;
+	height: 349px;
+	position: relative;
+}
+
+#menu .menu1{
+	width: 234px;
+	height: 105px;
+	position: absolute;
+	right: 0;
+	text-align: left;
+}
+
+#menu .first{top: 8px;}
+#menu .second{top: 123px;}
+#menu .third{top: 239px;}
+#menu a{
+	display: block;
+	width: 105px;
+	height: 105px;
+	float: left;
+	font: 12px 'Nanum Gothic', sans-serif;
+	padding:10px 5px 5px 10px;
+	box-sizing: border-box;
+}
+#menu .menu1-1,#menu .menu1-3,#menu .menu1-5{margin-right: 15px;}
+#menu .menu1-1 {background: url(../img/menu1.jpg) no-repeat;}
+#menu .menu1-2 {background: url(../img/menu2.jpg) no-repeat;}
+#menu .menu1-3 {background: url(../img/menu3.jpg) no-repeat;}
+#menu .menu1-4 {background: url(../img/menu4.jpg) no-repeat;}
+#menu .menu1-5 {background: url(../img/menu5.jpg) no-repeat;}
+#menu .menu1-6 {background: url(../img/menu6.jpg) no-repeat;}
+
+#content1 {
+	position: relative;
+	margin-top: 15px;
+}
+
+#program{
+	width: 711px;
+	height: 194px;
+}
+
+#program .program-banner{
+	background: url(../img/program-banner.jpg);
+	width: 134px;
+	height: 194px;
+	text-indent: -9999em;
+	overflow: hidden;
+	float: left;
+	margin-right: 10px;
+}
+
+#program .program-area{
+	width: 556px;
+	height: 100%;
+	float: right;
+}
+
+#program .program-area .program-gallery a{
+	float: left;
+	margin-left: 5px;
+}
+
+#program .program-area .program-notice{
+	text-align: left;
+	margin: 20px 0 0 10px;
+	font: 13px 'Nanum Gothic', sans-serif;
+	color: #595959;
+	line-height: 1.5em;
+}
+
+#program .program-area .program-notice span{
+	float: right;
+}
+
+#m-talk {
+	position: absolute;
+	top:0;
+	right: 0;
+	width: 250px;
+	height: 560px;
+	background: url(../img/m-talk.jpg) no-repeat;
+	padding: 5px 17px 0 20px;
+	box-sizing: border-box;
+	text-align: left;
+	font: 13px 'Nanum Gothic', sans-serif;
+	color: #333;
+}
+
+#m-talk .m-banner{
+	background: url(../img/m-banner.jpg) no-repeat;
+	width: 132px;
+	height: 42px;
+	text-indent: -9999em;
+	overflow: none;
+	margin-bottom: 15px;
+}
+
+#m-talk img{
+	float: left;
+	margin-bottom: 20px;
+}
+
+#m-talk .detail{
+	width: 120px;
+	height: 80px;
+	float: right;
+}
+
+#m-talk .detail a{
+	font: bold 14px 'Nanum Gothic', sans-serif;
+	color: #333;
+	line-height: 18px;
+}
+
+#m-talk .detail p{
+	margin-top: 7px;
+}
+
+#m-talk .m-notice{
+	line-height: 2.1em;
+}
+
+#m-talk .m-menu{
+	width: 215px;
+	margin-top: 25px;
+	font: 13px 'Nanum Gothic', sans-serif;
+}
+
+#m-talk .m-menu .m-menu1 p{
+	
+}
+
+#m-talk .m-menu .m-menu1 a{
+	display: block;
+	width: 104px;
+	height: 105px;
+	background: url(../img/m-menu1.jpg) no-repeat;
+	float: left;
+}
+
+#m-talk .m-menu .m-menu2 a{
+	display: block;
+	width: 104px;
+	height: 105px;
+	background: url(../img/m-menu2.jpg) no-repeat;
+	float: right;
+	padding-left: 5px;
+}
+
+
+#content2{
+	width: 711px;
+	height: 220px;
+	margin-top: 30px;
+}
+
+#announcer, #viewer, #notice, #contact{
+	width: 345px;
+	height: 100%;
+	float: left;
+}
+
+#announcer .announcer-banner{
+	background: url(../img/announcer-banner.jpg);
+	width: 134px;
+	height: 124px;
+	text-indent: -9999em;
+	overflow: hidden;
+	float: left;
+}
+
+#announcer .announcer-area, #viewer .viewer-area{
+	padding:18px;
+	color: #333;
+	text-align: left;
+	background-color: white;
+}
+
+#announcer .announcer-area h3 a, #viewer .viewer-area h3 a{
+	font: bold 14px 'Nanum Gothic', sans-serif;
+}
+
+#announcer .announcer-area p, #viewer .viewer-area p{
+	margin-top: 10px;
+	font: 13px 'Nanum Gothic', sans-serif;
+	line-height: 17px;
+}
+
+#viewer{
+ 	margin-left: 20px;
+}
+
+#viewer .viewer-banner{
+	background: url(../img/viewer-banner.jpg);
+	width: 134px;
+	height: 124px;
+	text-indent: -9999em;
+	overflow: hidden;
+	float: left;
+}
+
+#notice, #contact{
+	text-align: left;
+	height: 100px;
+	margin: 18px 0 58px;
+}
+
+#contact {
+ 	margin-left: 20px;
+}
+
+#notice h3, #contact h3{
+	font: bold 14px/30px 'Nanum Gothic', sans-serif;
+	color: #333;
+	border-bottom: 2px solid #cecece;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+#notice p, #contact p{
+	font: 13px/20px 'Nanum Gothic', sans-serif;
+	color: #333;
+	height: 20px;
+}
+
+#footer {
+	width: 100%;
+	height: 155px;
+	border-top: 2px solid #334555;
+	background-color: white;
+}
+
+#footer .with-m{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #eee;
+	background-color: white;
+	}
+
+#footer .with-m-area{
+	width: 980px;
+	margin: 0 auto;
+}
+
+#footer .with-m .with1 a, #footer .with-m .with2 a{
+	display: block;
+	width: 489px;
+	height: 49px;
+	background: url(../img/footer-more.jpg) no-repeat;
+	margin-top: -7px;
+	padding:20px;
+	box-sizing: border-box;
+	font: 13px 'Nanum Gothic', sans-serif;
+	color: #333;
+	text-align: left;
+}
+
+#footer .with-m .with1{border-left: 1px solid #eee;}
+
+#footer .with-m .with1{
+	float: left;
+}
+
+#footer .with-m .with2{
+	float: right;
+}
+#footer .footer-banner{
+	width:100%;
+	height: 90px;
+}
+#footer .fbarea{
+	width: 980px;
+	margin: 0 auto;
+	text-align: left;
+	background-color: white;
+}
+
+#footer .footer-banner .left{
+	float: left;
+}
+
+#footer .footer-banner .left p{
+	float: left;
+	margin: 35px 23px 0 0;
+	font: 11px 'Nanum Gothic', sans-serif;
+	color: #333;
+}
+
+#footer .footer-banner .left .small-logo1{
+	width: 62px;
+	height: 24px;
+	background: url(../img/mbc.jpg) no-repeat;
+	text-indent: -9999em;
+	vertical-align: top;
+}
+
+#footer .footer-banner .left .small-logo2{
+	width: 78px;
+	height: 24px;
+	background: url(../img/imbc.jpg) no-repeat;
+	text-indent: -9999em;
+	vertical-align: top;	
+}
+
+#footer .footer-banner .right{
+	float: right;
+}
+
+#footer .footer-banner .right p{
+	float: left;
+	margin-top: 27px;
+	padding-left: 10px;
+}
+
+#footer .footer-banner .right .twitter a{
+	display: block;
+	width: 34px;
+	height: 34px;
+	background: url(../img/twitter.jpg) no-repeat;
+	text-indent: -9999em;
+	vertical-align: top;
+}
+
+#footer .footer-banner .right .facebook a{
+	display: block;
+	width: 34px;
+	height: 34px;
+	background: url(../img/facebook.jpg) no-repeat;
+	text-indent: -9999em;
+	vertical-align: top;
+}
+
+#footer .footer-banner .right .youtube a{
+	display: block;
+	width: 34px;
+	height: 34px;
+	background: url(../img/youtube.jpg) no-repeat;
+	text-indent: -9999em;
+	vertical-align: top;
+}
+
+#footer .footer-banner .right .mTalk a{
+	display: block;
+	width: 58px;
+	height: 34px;
+	background: url(../img/mtalk.jpg) no-repeat;
+	text-indent: -9999em;
+	vertical-align: top;
+}
+
+
